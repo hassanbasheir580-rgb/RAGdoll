@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "RAGdoll AI service is running"}
+    return {"message": "RAGdoll AI service is not running"}
